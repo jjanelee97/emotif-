@@ -1,0 +1,43 @@
+.background-space {
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.form-space {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-login {
+  font-family: Helvetica;
+  font-size: 70px;
+  margin: 10px;
+  margin-left: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  color: black;
+  margin-bottom: 25px;
+  width: 300px;
+}

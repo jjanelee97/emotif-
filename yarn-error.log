@@ -1,0 +1,95 @@
+Arguments: 
+  /usr/local/Cellar/node/9.6.1/bin/node /usr/local/Cellar/yarn/1.5.1/libexec/bin/yarn.js start
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/Users/jjanelee97/.commands
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.6.1
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "emotif",
+    "version": "1.0.0",
+    "main": "src/index.js",
+    "repository": "https://github.com/BenjaminKCooper/emotif.git",
+    "author": "Ben Cooper <benjaminkagancooper@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+      "start": "NODE_ENV=development webpack-dev-server --inline --hot"
+    },
+    "devDependencies": {
+      "autoprefixer": "^8.0.0",
+      "babel-core": "^6.26.0",
+      "babel-eslint": "^8.2.2",
+      "babel-loader": "^7.1.2",
+      "babel-plugin-import": "^1.6.5",
+      "babel-preset-env": "^1.6.1",
+      "babel-preset-react": "^6.24.1",
+      "css-loader": "^0.28.9",
+      "eslint": "^4.18.1",
+      "eslint-config-airbnb": "^16.1.0",
+      "eslint-loader": "^1.9.0",
+      "eslint-plugin-import": "^2.8.0",
+      "eslint-plugin-jsx-a11y": "^6.0.3",
+      "eslint-plugin-react": "^7.7.0",
+      "extract-text-webpack-plugin": "^3.0.2",
+      "friendly-errors-webpack-plugin": "^1.6.1",
+      "less": "^3.0.1",
+      "less-loader": "^4.0.5",
+      "node-sass": "^4.7.2",
+      "postcss-loader": "^2.1.0",
+      "sass-loader": "^6.0.6",
+      "style-loader": "^0.20.2",
+      "webpack": "^3.11.0",
+      "webpack-dashboard": "^1.1.1",
+      "webpack-dev-server": "^2.11.1"
+    },
+    "dependencies": {
+      "antd": "^3.2.1",
+      "axios": "^0.18.0",
+      "babel-polyfill": "^6.26.0",
+      "draft-js": "^0.10.5",
+      "es6-shim": "^0.35.3",
+      "firebase": "^4.10.0",
+      "immutable": "^3.8.2",
+      "jquery": "^3.3.1",
+      "lodash.debounce": "^4.0.8",
+      "react": "^16.2.0",
+      "react-dom": "^16.2.0",
+      "react-firebaseui": "^1.1.8",
+      "react-redux": "^5.0.7",
+      "react-router": "^4.2.0",
+      "react-router-dom": "^4.2.2",
+      "redux": "^3.7.2",
+      "redux-thunk": "^2.2.0",
+      "surge": "^0.19.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Command failed.
+  Exit code: 1
+  Command: sh
+  Arguments: -c NODE_ENV=development webpack-dev-server --inline --hot
+  Directory: /Users/jjanelee97/Desktop/watson/emotif
+  Output:
+  
+      at ProcessTermError.MessageError (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:186:110)
+      at new ProcessTermError (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:226:113)
+      at ChildProcess.<anonymous> (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:30281:17)
+      at ChildProcess.emit (events.js:127:13)
+      at maybeClose (internal/child_process.js:933:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:220:5)
